@@ -1,5 +1,5 @@
 # https://github.com/btford/write-good
-name: btford write-good
+name: 'btford write-good'
 
 on:
   push:

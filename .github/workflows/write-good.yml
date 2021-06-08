@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "is this action working?"
-      - uses: btford/write-good@v1
+      - uses: btford/write-good@v0

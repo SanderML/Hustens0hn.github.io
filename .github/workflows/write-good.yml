@@ -1,17 +1,12 @@
 # https://github.com/btford/write-good
 name: btford write-good
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-   branches: [ main ]
+on: [push]
    
 jobs:
   writing-good:
+    name: Try the write good feature
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: echo "is this action working?"
-      - name: Try the write good feature
       - uses: btford/write-good@1.0.8

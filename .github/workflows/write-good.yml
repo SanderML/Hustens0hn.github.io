@@ -1,7 +1,6 @@
 # https://github.com/btford/write-good
 name: btford write-good
 on: [push]
-   
 jobs:
   writing-good:
     name: Try the write good feature
@@ -9,6 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "is this action working?"
-     # - run: npm install -g write-good
-      - run: npm i nstall -g write-good
+      - run: npm install -g write-good
       - run: write-good *.md

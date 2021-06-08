@@ -4,7 +4,7 @@ name: btford write-good
 on:
   push:
     branches: [ main ]
-  pull requests:
+  pull_requests:
    branches: [ main ]
    
 jobs:

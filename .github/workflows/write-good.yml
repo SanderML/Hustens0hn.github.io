@@ -11,3 +11,4 @@ jobs:
       - run: echo "is this action working?"
      # - run: npm install -g write-good
       - run: npx write-good *.md 
+      - run: write-good *.md

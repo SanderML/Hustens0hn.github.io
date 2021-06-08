@@ -12,5 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run echo "is this action working?"
+      - run: echo "is this action working?"
+      - name: Try the write good feature
       - uses: btford/write-good@1.0.8

@@ -1,6 +1,11 @@
 # https://github.com/btford/write-good
 name: btford write-good
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request: 
+    branches: [main]
+    
 jobs:
   writing-good:
     name: Try the write good feature

@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo "is this action working?"
      # - run: npm install -g write-good
-      - run: npx write-good *.md 
+      - run: npm i nstall -g write-good
       - run: write-good *.md

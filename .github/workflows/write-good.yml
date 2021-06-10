@@ -13,5 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       #- run: echo "is this action working?"
+      - run: touch write_good.txt
       - run: sudo npm install -g write-good
       - run: write-good ${{ github.workspace }}/testingwritegood.md >> write_good.txt

@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       #- run: echo "is this action working?"
       - run: sudo npm install -g write-good
-      - run: write-good testingwritegood.md
+      - run: write-good ${{ github.workspace }}/testingwritegood.md
